@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/About WebPlotDigitizer/index.html",
+    "href": "posts/About WebPlotDigitizer/index.html",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "",
+    "text": "WebPlotDigitizer is a powerful, web-based tool that allows users to extract data from various types of graphs, charts, and plots. Developed by Automeris, it provides a convenient and intuitive platform for converting graphical data into usable numerical values.\nThis is especially useful when working with images of scientific graphs or plots where raw data is unavailable. Whether you’re a **researcher, engineer, or student**, WebPlotDigitizer helps in digitizing data from scanned images, enabling you to perform further analysis with the extracted data."
+  },
+  {
+    "objectID": "posts/About WebPlotDigitizer/index.html#introduction",
+    "href": "posts/About WebPlotDigitizer/index.html#introduction",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "",
+    "text": "WebPlotDigitizer is a powerful, web-based tool that allows users to extract data from various types of graphs, charts, and plots. Developed by Automeris, it provides a convenient and intuitive platform for converting graphical data into usable numerical values.\nThis is especially useful when working with images of scientific graphs or plots where raw data is unavailable. Whether you’re a **researcher, engineer, or student**, WebPlotDigitizer helps in digitizing data from scanned images, enabling you to perform further analysis with the extracted data."
+  },
+  {
+    "objectID": "posts/About WebPlotDigitizer/index.html#installation-setup",
+    "href": "posts/About WebPlotDigitizer/index.html#installation-setup",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Installation & Setup",
+    "text": "Installation & Setup\nOne of the best aspects of WebPlotDigitizer is that it requires no complex installation. Since it is a web-based tool, you can access it from any modern browser without installing anything on your local machine.\n\nGetting Started\nFollow these simple steps to start using WebPlotDigitizer:\n\nVisit the official website: WebPlotDigitizer - Automeris.\n\nLaunch the tool: Click on the “Launch WebPlotDigitizer” button.\n\nStart using it immediately: Upload your image (graph, plot, or chart) and begin extracting data.\n\nFor advanced features like batch processing or saving projects, you may consider creating an account, but this step is optional."
+  },
+  {
+    "objectID": "posts/About WebPlotDigitizer/index.html#key-features-explanation",
+    "href": "posts/About WebPlotDigitizer/index.html#key-features-explanation",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Key Features & Explanation",
+    "text": "Key Features & Explanation\nWebPlotDigitizer offers a range of features that make it one of the most versatile and user-friendly tools for extracting data from images. Below are some of its key features:\n\nSupport for Multiple Plot Types\nWebPlotDigitizer supports various plot types, including:\n\nXY Plots\n\nBar Charts\n\nPie Charts\n\nPolar Plots\n\nBox Plots\n\nMaps (Raster Images)\n\nThis versatility allows users to extract data from a wide range of graphical sources.\n\n\nManual and Automated Digitization\n\nManual Mode: Click on points manually for precise extraction.\n\nAuto Mode: The tool can automatically detect and digitize points, making the process faster and more efficient for well-defined graphs.\n\n\n\nImage Calibration\nWebPlotDigitizer enables you to calibrate the image by setting the origin and defining the axes, ensuring accuracy when extracting data from non-standard or skewed graphs.\n\n\nData Export\nOnce data is extracted, you can export it in multiple formats, including:\n\nCSV\n\nJSON\n\nExcel\n\nThis makes it easy to integrate the extracted data into further analysis or other applications.\n\n\nPoint Detection and Curve Fitting\nWebPlotDigitizer allows you to detect and fit curves to the data points, making it useful when working with continuous curves in graphs.\n\n\nCode & Libraries involved: Using WebPlotDigitizer Data in Python\nWebPlotDigitizer is not a code-based tool, but it integrates seamlessly with external tools for further analysis. Here’s a simple example of how you might use the digitized data with Python to plot it using Pandas and Matplotlib.\n\nStep 1: Extract Data using WebPlotDigitizer\nAfter digitizing a graph (e.g., extracting data from an XY plot), you can export the data as a CSV file.\n\n\nStep 2: Import and Plot Data in Python\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Load the CSV data\ndata = pd.read_csv('your file name.csv')\n\n# Assuming the CSV has columns 'X' and 'Y' for the data points\nplt.plot(data['X'], data['Y'])\nplt.title('Digitized Data from Graph')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.show()\n\n\n\ntaken y = x² curve for example\n\n\n\n\nChoose the required file from your drive/PC\n___\n\nCalibrate it as shown in the figure\n\n\nSelect two coordinates of x and y and calibrate them\n____\n\n\n\nhighlight the curve to take values using pen and and auto number of points to be chosen on the selected curve.\n\n\n___\n\n\n\nAfter that we get the points as shown and we go into View data option in bottom-left panel.\n\n\n___\n\nThen save the dataset of points in CSV format if you want.\n___\n\n\n\nAs proof, we have chosen the Plotly website and demonstrated the graph using the obtained dataset.\n\n\n___"
+  },
+  {
+    "objectID": "posts/About WebPlotDigitizer/index.html#conclusion",
+    "href": "posts/About WebPlotDigitizer/index.html#conclusion",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Conclusion",
+    "text": "Conclusion\nWebPlotDigitizer is a highly versatile and easy-to-use tool for digitizing data from graphs and charts. It offers AI-assisted features and computer vision algorithms to streamline the data extraction process, saving significant manual effort. Its ability to work with a variety of plot types, manual and automated digitization modes, and robust export options make it an invaluable resource for researchers, engineers, analysts, and students.\nWhether you’re extracting data from a scientific paper or a presentation, WebPlotDigitizer makes the process efficient and straightforward."
+  },
+  {
+    "objectID": "posts/About WebPlotDigitizer/index.html#references-further-reading",
+    "href": "posts/About WebPlotDigitizer/index.html#references-further-reading",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "References & Further Reading",
+    "text": "References & Further Reading\n\nWebPlotDigitizer Official Website\n\nWebPlotDigitizer User Guide\n\nWebPlotDigitizer YouTube Tutorials"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "WebPlotDigitizerBlog",
+    "section": "",
+    "text": "WebPlotDigitizer: Extracting Data from Graphs Made Easy\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 25, 2025\n\n\nArjun, Chaitanya Ram, Venkata Viswa Sai\n\n\n\n\n\n\n\n\n\n\n\n\nWebPlotDigitizer: Extracting Data from Graphs Made Easy\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 25, 2025\n\n\nArjun, Chaitanya Ram, Venkata Viswa Sai\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 23, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 20, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/mine-Webplotdigitizer/index.html",
+    "href": "posts/mine-Webplotdigitizer/index.html",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "",
+    "text": "WebPlotDigitizer is a powerful, web-based tool that allows users to extract data from various types of graphs, charts, and plots. Developed by Automeris, it provides a convenient and intuitive platform for converting graphical data into usable numerical values.\nThis is especially useful when working with images of scientific graphs or plots where raw data is unavailable. Whether you’re a **researcher, engineer, or student**, WebPlotDigitizer helps in digitizing data from scanned images, enabling you to perform further analysis with the extracted data."
+  },
+  {
+    "objectID": "posts/mine-Webplotdigitizer/index.html#introduction",
+    "href": "posts/mine-Webplotdigitizer/index.html#introduction",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "",
+    "text": "WebPlotDigitizer is a powerful, web-based tool that allows users to extract data from various types of graphs, charts, and plots. Developed by Automeris, it provides a convenient and intuitive platform for converting graphical data into usable numerical values.\nThis is especially useful when working with images of scientific graphs or plots where raw data is unavailable. Whether you’re a **researcher, engineer, or student**, WebPlotDigitizer helps in digitizing data from scanned images, enabling you to perform further analysis with the extracted data."
+  },
+  {
+    "objectID": "posts/mine-Webplotdigitizer/index.html#installation-setup",
+    "href": "posts/mine-Webplotdigitizer/index.html#installation-setup",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Installation & Setup",
+    "text": "Installation & Setup\nOne of the best aspects of WebPlotDigitizer is that it requires no complex installation. Since it is a web-based tool, you can access it from any modern browser without installing anything on your local machine.\n\nGetting Started\nFollow these simple steps to start using WebPlotDigitizer:\n\nVisit the official website: WebPlotDigitizer - Automeris.\n\nLaunch the tool: Click on the “Launch WebPlotDigitizer” button.\n\nStart using it immediately: Upload your image (graph, plot, or chart) and begin extracting data.\n\nFor advanced features like batch processing or saving projects, you may consider creating an account, but this step is optional."
+  },
+  {
+    "objectID": "posts/mine-Webplotdigitizer/index.html#key-features-explanation",
+    "href": "posts/mine-Webplotdigitizer/index.html#key-features-explanation",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Key Features & Explanation",
+    "text": "Key Features & Explanation\nWebPlotDigitizer offers a range of features that make it one of the most versatile and user-friendly tools for extracting data from images. Below are some of its key features:\n\nSupport for Multiple Plot Types\nWebPlotDigitizer supports various plot types, including:\n\nXY Plots\n\nBar Charts\n\nPie Charts\n\nPolar Plots\n\nBox Plots\n\nMaps (Raster Images)\n\nThis versatility allows users to extract data from a wide range of graphical sources.\n\n\nManual and Automated Digitization\n\nManual Mode: Click on points manually for precise extraction.\n\nAuto Mode: The tool can automatically detect and digitize points, making the process faster and more efficient for well-defined graphs.\n\n\n\nImage Calibration\nWebPlotDigitizer enables you to calibrate the image by setting the origin and defining the axes, ensuring accuracy when extracting data from non-standard or skewed graphs.\n\n\nData Export\nOnce data is extracted, you can export it in multiple formats, including:\n\nCSV\n\nJSON\n\nExcel\n\nThis makes it easy to integrate the extracted data into further analysis or other applications.\n\n\nPoint Detection and Curve Fitting\nWebPlotDigitizer allows you to detect and fit curves to the data points, making it useful when working with continuous curves in graphs.\n\n\nCode & Libraries involved: Using WebPlotDigitizer Data in Python\nWebPlotDigitizer is not a code-based tool, but it integrates seamlessly with external tools for further analysis. Here’s a simple example of how you might use the digitized data with Python to plot it using Pandas and Matplotlib.\n\nStep 1: Extract Data using WebPlotDigitizer\nAfter digitizing a graph (e.g., extracting data from an XY plot), you can export the data as a CSV file.\n\n\nStep 2: Import and Plot Data in Python\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Load the CSV data\ndata = pd.read_csv('your file name.csv')\n\n# Assuming the CSV has columns 'X' and 'Y' for the data points\nplt.plot(data['X'], data['Y'])\nplt.title('Digitized Data from Graph')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.show()\n\n\n\ntaken y = x² curve for example\n\n\n\n\nChoose the required file from your drive/PC\n___\n\nCalibrate it as shown in the figure\n\n\nSelect two coordinates of x and y and calibrate them\n____\n\n\n\nhighlight the curve to take values using pen and and auto number of points to be chosen on the selected curve.\n\n\n___\n\n\n\nAfter that we get the points as shown and we go into View data option in bottom-left panel.\n\n\n___\n\nThen save the dataset of points in CSV format if you want.\n___\n\n\n\nAs proof, we have chosen the Plotly website and demonstrated the graph using the obtained dataset.\n\n\n___"
+  },
+  {
+    "objectID": "posts/mine-Webplotdigitizer/index.html#conclusion",
+    "href": "posts/mine-Webplotdigitizer/index.html#conclusion",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Conclusion",
+    "text": "Conclusion\nWebPlotDigitizer is a highly versatile and easy-to-use tool for digitizing data from graphs and charts. It offers AI-assisted features and computer vision algorithms to streamline the data extraction process, saving significant manual effort. Its ability to work with a variety of plot types, manual and automated digitization modes, and robust export options make it an invaluable resource for researchers, engineers, analysts, and students.\nWhether you’re extracting data from a scientific paper or a presentation, WebPlotDigitizer makes the process efficient and straightforward."
+  },
+  {
+    "objectID": "posts/mine-Webplotdigitizer/index.html#references-further-reading",
+    "href": "posts/mine-Webplotdigitizer/index.html#references-further-reading",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "References & Further Reading",
+    "text": "References & Further Reading\n\nWebPlotDigitizer Official Website\n\nWebPlotDigitizer User Guide\n\nWebPlotDigitizer YouTube Tutorials"
+  }
+]
