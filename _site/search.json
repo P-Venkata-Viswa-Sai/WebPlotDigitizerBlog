@@ -7,11 +7,18 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "WebPlotDigitizerBlog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 23, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 20, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "WebPlotDigitizer: Extracting Data from Graphs Made Easy\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 25, 2025\n\n\nArjun, Chaitanya Ram, Venkata Viswa Sai\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 23, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 20, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -21,10 +28,45 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/About WebPlotDigitizer/index.html",
+    "href": "posts/About WebPlotDigitizer/index.html",
+    "title": "WebPlotDigitizerBlog",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/webplotdigitizer/index.html",
+    "href": "posts/webplotdigitizer/index.html",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "",
+    "text": "When analyzing data, we often encounter graphs in research papers, reports, or images that lack numerical values. Extracting data from these visuals can be a challenge, but WebPlotDigitizer, developed by Ankit Rohatgi and hosted at automeris.io, provides an efficient solution.\nThis blog covers WebPlotDigitizer’s features, how to use it, and its real-world applications."
+  },
+  {
+    "objectID": "posts/webplotdigitizer/index.html#introduction",
+    "href": "posts/webplotdigitizer/index.html#introduction",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "",
+    "text": "When analyzing data, we often encounter graphs in research papers, reports, or images that lack numerical values. Extracting data from these visuals can be a challenge, but WebPlotDigitizer, developed by Ankit Rohatgi and hosted at automeris.io, provides an efficient solution.\nThis blog covers WebPlotDigitizer’s features, how to use it, and its real-world applications."
+  },
+  {
+    "objectID": "posts/webplotdigitizer/index.html#getting-started-with-webplotdigitizer",
+    "href": "posts/webplotdigitizer/index.html#getting-started-with-webplotdigitizer",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Getting Started with WebPlotDigitizer",
+    "text": "Getting Started with WebPlotDigitizer\n\nUsing the Online Version\n\nOpen WebPlotDigitizer.\nUpload an image of a graph.\nCalibrate the axes and extract data points.\n\n\n\nInstalling the Offline Version\nIf you prefer an offline version: 1. Go to the WebPlotDigitizer download page. 2. Select the appropriate version for your operating system. 3. Extract the downloaded file and run the application."
+  },
+  {
+    "objectID": "posts/webplotdigitizer/index.html#key-features",
+    "href": "posts/webplotdigitizer/index.html#key-features",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Key Features",
+    "text": "Key Features\nWebPlotDigitizer offers a variety of features that make data extraction seamless: - Automatic and Manual Data Extraction: Works with line graphs, scatter plots, bar charts, and more. - Supports Different Axis Types: Linear, logarithmic, polar, and ternary axes. - Batch Processing: Extract data from multiple images at once. - Flexible Export Options: Save data as CSV, JSON, and other formats."
+  },
+  {
+    "objectID": "posts/webplotdigitizer/index.html#using-webplotdigitizer-with-python",
+    "href": "posts/webplotdigitizer/index.html#using-webplotdigitizer-with-python",
+    "title": "WebPlotDigitizer: Extracting Data from Graphs Made Easy",
+    "section": "Using WebPlotDigitizer with Python",
+    "text": "Using WebPlotDigitizer with Python\nOnce you’ve extracted data, you can analyze it using Python. Below is an example of handling extracted CSV data using Pandas and Matplotlib:\n```python import pandas as pd import matplotlib.pyplot as plt"
   }
 ]

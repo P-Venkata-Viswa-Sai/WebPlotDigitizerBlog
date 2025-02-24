@@ -1,0 +1,47 @@
+---
+title: "WebPlotDigitizer: Extracting Data from Graphs Made Easy"
+author: "Arjun, Chaitanya Ram, Venkata Viswa Sai"
+date: "2025-02-25"
+categories:
+  - news
+  - code
+  - analysis
+image: "Logo.png"
+format: html
+---
+
+## Introduction
+
+When analyzing data, we often encounter graphs in research papers, reports, or images that lack numerical values. Extracting data from these visuals can be a challenge, but **WebPlotDigitizer**, developed by Ankit Rohatgi and hosted at [automeris.io](https://automeris.io/), provides an efficient solution.
+
+This blog covers WebPlotDigitizer’s features, how to use it, and its real-world applications.
+
+## Getting Started with WebPlotDigitizer
+
+### Using the Online Version
+
+-   Open [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/).
+-   Upload an image of a graph.
+-   Calibrate the axes and extract data points.
+
+### Installing the Offline Version
+
+If you prefer an offline version: 1. Go to the [WebPlotDigitizer download page](https://automeris.io/WebPlotDigitizer/). 2. Select the appropriate version for your operating system. 3. Extract the downloaded file and run the application.
+
+## Key Features
+
+WebPlotDigitizer offers a variety of features that make data extraction seamless: - **Automatic and Manual Data Extraction**: Works with line graphs, scatter plots, bar charts, and more. - **Supports Different Axis Types**: Linear, logarithmic, polar, and ternary axes. - **Batch Processing**: Extract data from multiple images at once. - **Flexible Export Options**: Save data as CSV, JSON, and other formats.
+
+## Using WebPlotDigitizer with Python
+
+Once you've extracted data, you can analyze it using Python. Below is an example of handling extracted CSV data using Pandas and Matplotlib:
+
+\`\`\`python import pandas as pd import matplotlib.pyplot as plt
+
+# Load extracted data
+
+file_path = "data.csv" \# Update with your file location data = pd.read_csv(file_path)
+
+# Plot the extracted data
+
+plt.scatter(data\["X"\], data\["Y"\], color='red') plt.xlabel("X-axis") plt.ylabel("Y-axis") plt.title("Extracted Data Plot") plt.show()
