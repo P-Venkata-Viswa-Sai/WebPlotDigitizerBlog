@@ -14,7 +14,7 @@ format: html
 
 **WebPlotDigitizer** is a powerful, web-based tool that allows users to extract data from various types of graphs, charts, and plots. Developed by Automeris, it provides a convenient and intuitive platform for converting graphical data into usable numerical values.
 
-This is especially useful when working with images of scientific graphs or plots where raw data is unavailable. Whether you’re a \*\*researcher, engineer, or student\*\*, WebPlotDigitizer helps in digitizing data from scanned images, enabling you to perform further analysis with the extracted data.
+This is especially useful when working with images of scientific graphs or plots where raw data is unavailable. Whether you’re a researcher, engineer, or student, WebPlotDigitizer helps in digitizing data from scanned images, enabling you to perform further analysis with the extracted data.
 
 ## Installation & Setup
 
@@ -95,7 +95,11 @@ plt.ylabel('Y-axis')
 plt.show()
 ```
 
-![**taken y = x² curve for example**](c0.jpg)
+**After running above code we get a example graph as shown below and follow the instructions given below**
+
+![](c0.jpg)
+
+**taken y = x² curve for example**
 
 <br><br>
 
@@ -117,11 +121,13 @@ plt.show()
 
 \_\_\_\_
 
-![**highlight the curve to take values using pen and and auto number of points to be chosen on the selected curve.**](images/WhatsApp%20Image%202025-02-24%20at%2021.44.03_8c94c9dc.jpg)
+![](images/WhatsApp%20Image%202025-02-24%20at%2021.44.03_8c94c9dc.jpg)
+**highlight the curve to take values using pen and and auto number of points to be chosen on the selected curve.**
 
 \_\_\_
 
-![**After that we get the points as shown and we go into View data option in bottom-left panel.**](images/WhatsApp%20Image%202025-02-24%20at%2021.44.02_946839da.jpg)
+![](images/WhatsApp%20Image%202025-02-24%20at%2021.44.02_946839da.jpg)
+**After that we get the points as shown and we go into View data option in bottom-left panel.**
 
 \_\_\_
 
@@ -131,7 +137,8 @@ plt.show()
 
 \_\_\_
 
-![**As proof, we have chosen the Plotly website and demonstrated the graph using the obtained dataset.**](images/WhatsApp%20Image%202025-02-24%20at%2021.44.03_c0790b6a.jpg)
+![](images/WhatsApp%20Image%202025-02-24%20at%2021.44.03_c0790b6a.jpg)
+**As proof, we have chosen the Plotly website and demonstrated the graph using the obtained dataset.**
 
 \_\_\_
 
